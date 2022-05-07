@@ -1,4 +1,5 @@
 import { Component } from '@angular/core';
+import { TodoStoreService } from './services/todo-store.service';
 
 @Component({
   selector: 'app-root',
@@ -6,5 +7,4 @@ import { Component } from '@angular/core';
   styleUrls: ['./app.component.scss']
 })
 export class AppComponent {
-  title = 'todo-mvc';
 }
